@@ -1,6 +1,5 @@
 """Constants and configuration for the internships scripts."""
 
-import os
 import time
 
 if hasattr(time, "tzset"):

@@ -232,5 +232,5 @@ def embed_table(
     else:
         final_content = new_text
 
-    with open(filepath, "w", encoding="utf-8") as f:
+    with open(filepath, "w", encoding="utf-8", newline="\n") as f:
         f.write(final_content)
